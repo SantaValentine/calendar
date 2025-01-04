@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#calendarContainer {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fbf2e9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #000;
+}
+
+input {
+    width: 235px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#generateButton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #d7d7d7;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#generateButton:hover {
+    background-color: #bcbcbc;
+}
+
+#calendarTitle {
+    margin-top: 20px;
+    color: #000;
+    text-align: left;
+}
+
+#calendarTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    color: #000;
+    text-align: center;
+}
+
+#calendarTable th,
+#calendarTable td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 14.28%;
+    box-sizing: border-box;
+}
+
+#calendarTable th {
+    background-color: #d7d7d7;
+    font-weight: bold;
+}
